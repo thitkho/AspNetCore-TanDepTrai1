@@ -10,10 +10,11 @@ import App from './App';
 // import RootProvider from './provider';
 // import FullApp from './FullApp/index';
 
-import MyApp from './FullAppUi/MTRRFirestore';
-import RootProvider from './root/provider';
-import FullAppUi from './FullAppUi/index';
+// import MyApp from './FullAppUi/MTRRFirestore';
 
+// import FullAppUi from './FullAppUi/index';
+
+import RootProvider from './root/provider';
 ReactDOM.render(
 
   // <FullAppUi/>
