@@ -94,9 +94,6 @@ const BoxStyle = styled(Box)(({ theme, ownerState }) => {
   if (validBoxShadows.find((el) => el === shadow)) {
     boxShadowValue = boxShadows[shadow];
   } else if (coloredShadow) {
-    console.log(boxShadowValue);
-    console.log(coloredShadow);
-    console.log(colored[coloredShadow]);
     boxShadowValue = colored[coloredShadow] ? colored[coloredShadow] : "none";
   }
   console.log("end:", boxShadowValue);

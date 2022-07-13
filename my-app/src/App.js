@@ -22,7 +22,7 @@ import SignReset from './pages/authorization/signreset/index';
 import { themeLight } from './theme/themeLight';
 import { themeDark } from './theme/themeDark';
 import SideNavbar from './layouts/sidenav/index';
-import { PrivateRoute } from "./router/private";
+// import { PrivateRoute } from "./router/private";
 
 
 function App() {
